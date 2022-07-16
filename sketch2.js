@@ -66,6 +66,8 @@ function draw() {
 
     background(0, 0, 0)
 
+    // image(video, 0, 0, window.innerWidth, window.innerHeight);
+
     for (pi = 0; pi < poses.length; pi++) {
 
         let singlePose = poses[pi].pose;
@@ -80,7 +82,7 @@ function draw() {
                 color: {
                     r: 200 + Math.floor(Math.random() * 50),
                     g: 200 + Math.floor(Math.random() * 50),
-                    b: 200 + Math.floor(Math.random() * 50)
+                    b: 200 + Math.floor(Math.random() * 510)
                 },
                 opacity: 255
             });
