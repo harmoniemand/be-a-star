@@ -49,7 +49,7 @@ function modelLOADED() {
 
 function draw() {
 
-    for (let i = 0; i < 5; i++) {
+    for (let i = 0; i < 15; i++) {
         particels.push({
             position: {
                 x: Math.floor(Math.random() * window.innerWidth),
