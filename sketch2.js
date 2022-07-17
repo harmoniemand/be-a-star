@@ -96,6 +96,8 @@ function draw() {
         }
 
         stroke(0, 0, 0);
+        strokeWeight(0);
+
     }
 
     particels.forEach(particle => {
