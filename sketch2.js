@@ -100,7 +100,7 @@ function draw() {
 
     particels.forEach(particle => {
         fill(particle.color.r, particle.color.g, particle.color.b, particle.opacity);
-        ellipse(particle.position.x, particle.position.y, 30);
+        ellipse(particle.position.x, particle.position.y, 100);
         particle.opacity = particle.opacity - 5;
     });
 
