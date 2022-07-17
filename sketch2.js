@@ -89,7 +89,7 @@ function draw() {
         }
 
         stroke(150, 150, 150, 100);
-        strokeWeight(5);
+        strokeWeight(30);
 
         for (let j = 0; j < skeleton.length; j++) {
             line(skeleton[j][0].position.x * faktor_x, skeleton[j][0].position.y * faktor_y, skeleton[j][1].position.x * faktor_x, skeleton[j][1].position.y * faktor_y);
@@ -100,7 +100,7 @@ function draw() {
 
     particels.forEach(particle => {
         fill(particle.color.r, particle.color.g, particle.color.b, particle.opacity);
-        ellipse(particle.position.x, particle.position.y, 100);
+        ellipse(particle.position.x, particle.position.y, 80);
         particle.opacity = particle.opacity - 5;
     });
 
